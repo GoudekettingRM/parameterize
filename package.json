@@ -1,6 +1,6 @@
 {
-  "name": "parameterjs",
-  "version": "0.0.1",
+  "name": "urlizejs",
+  "version": "1.0.0",
   "description": "Convert strings to parameterized strings",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",

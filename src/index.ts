@@ -1,6 +1,6 @@
 import { CHARACTER_MAP, type CharacterMap } from './characterMap';
 
-type TParameterizeOptions = {
+type TUrlizeOptions = {
   charCap?: number;
   separator?: string;
 };
@@ -23,7 +23,7 @@ class CharNormalizer {
   }
 }
 
-const parameterize = (str: string, opts?: TParameterizeOptions): string => {
+const urlize = (str: string, opts?: TUrlizeOptions): string => {
   const options = opts || {};
 
   str = CharNormalizer.normalize(str)
@@ -35,4 +35,4 @@ const parameterize = (str: string, opts?: TParameterizeOptions): string => {
   return str.substring(0, options.charCap);
 };
 
-export { parameterize };
+export { urlize };
