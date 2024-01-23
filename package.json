@@ -1,5 +1,5 @@
 {
-  "name": "parameterizejs",
+  "name": "parameterjs",
   "version": "0.0.1",
   "description": "Convert strings to parameterized strings",
   "main": "dist/index.js",
