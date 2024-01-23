@@ -10,20 +10,20 @@ A TypeScript library for normalizing and parameterizing strings, making them URL
 Install `parameterize` using npm:
 
 ```bash
-npm install parameterize
+npm install @goudekettingrm/parameterize
 ```
 
 or using yarn:
 
 ```bash
-yarn add parameterize
+yarn add @goudekettingrm/parameterize
 ```
 
 ## Usage
 Import and use the parameterize function in your TypeScript or JavaScript project:
 
 ```typescript
-import { parameterize } from 'parameterize';
+import { parameterize } from '@goudekettingrm/parameterize';
 
 const normalizedString = parameterize('Äpfel & Birnen!');
 console.log(normalizedString); // Outputs: 'apfel-birnen'
