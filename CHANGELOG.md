@@ -1,5 +1,11 @@
 # next-navigate
 
+## 1.1.1
+
+### Patch Changes
+
+- 193390f: Update ReadMe to reflect @goudekettingrm/parameterize
+
 ## 1.1.0
 
 ### Minor Changes
