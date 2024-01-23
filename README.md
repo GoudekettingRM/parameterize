@@ -10,13 +10,13 @@ A TypeScript library for normalizing and parameterizing strings, making them URL
 Install `parameterize` using npm:
 
 ```bash
-npm install parameterize
+npm install @goudekettingrm/parameterize
 ```
 
 or using yarn:
 
 ```bash
-yarn add parameterize
+yarn add @goudekettingrm/parameterize
 ```
 
 ## Usage
