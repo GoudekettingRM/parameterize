@@ -1,5 +1,41 @@
-# next-navigate
-Help navigate your NextJS application without hard-coded routes
+# Parameterize
 
-## In Development
-Package is not operational yet. If you have ideas, suggestions, or want to help out, hmu.
+A TypeScript library for normalizing and parameterizing strings, making them URL-friendly.
+
+## Installation
+
+Install `parameterize` using npm:
+
+```bash
+npm install parameterize
+```
+
+or using yarn:
+
+```bash
+yarn add parameterize
+```
+
+## Usage
+Import and use the parameterize function in your TypeScript or JavaScript project:
+
+```typescript
+import { parameterize } from 'parameterize';
+
+const normalizedString = parameterize('Äpfel & Birnen!');
+console.log(normalizedString); // Outputs: 'apfel-birnen'
+```
+
+## API
+- parameterize(str: string, options?: { charCap?: number, separator?: string }): string
+  - str: The string to be normalized and parameterized.
+  - options: Optional settings.
+    - charCap: Maximum length of the output string.
+    - separator: The separator to use instead of hyphens.
+
+
+## Contributing
+Contributions are welcome! Please read our Contributing Guide for details on our code of conduct, and the process for submitting pull requests.
+
+## License
+This project is licensed under the MIT License.

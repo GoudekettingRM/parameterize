@@ -13,6 +13,8 @@ const watcher = watch('./', {
 
 // Trigger the build command on file changes
 watcher.on('all', (event, path) => {
+  if (path.startsWith('.git')) return;
+
   console.log(`File ${path} affected. Event: ${event}`);
   exec(buildCommand, (error, stdout, stderr) => {
     if (error) {
