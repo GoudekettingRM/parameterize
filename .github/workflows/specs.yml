@@ -1,9 +1,6 @@
 name: Run Specs
 
 on:
-  push:
-    branches:
-      - '**'
   pull_request:
     branches:
       - '**'
