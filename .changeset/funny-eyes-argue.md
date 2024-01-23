@@ -1,5 +1,0 @@
----
-"urlizejs": minor
----
-
-Change name

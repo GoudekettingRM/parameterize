@@ -1,5 +1,11 @@
 # next-navigate
 
+## 1.1.0
+
+### Minor Changes
+
+- 333419e: Change name
+
 ## 1.0.0
 
 ### Major Changes
