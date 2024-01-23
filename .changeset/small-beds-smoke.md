@@ -1,0 +1,5 @@
+---
+"parameterizejs": major
+---
+
+Initial version
