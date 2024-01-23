@@ -23,7 +23,7 @@ yarn add @goudekettingrm/parameterize
 Import and use the parameterize function in your TypeScript or JavaScript project:
 
 ```typescript
-import { parameterize } from 'parameterize';
+import { parameterize } from '@goudekettingrm/parameterize';
 
 const normalizedString = parameterize('Äpfel & Birnen!');
 console.log(normalizedString); // Outputs: 'apfel-birnen'
