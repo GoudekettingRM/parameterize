@@ -1,3 +1,6 @@
+[![Build](https://github.com/GoudekettingRM/parameterize/actions/workflows/main.yml/badge.svg)](https://github.com/GoudekettingRM/parameterize/actions/workflows/main.yml) [![Specs](https://github.com/GoudekettingRM/parameterize/actions/workflows/specs.yml/badge.svg)](https://github.com/GoudekettingRM/parameterize/actions/workflows/specs.yml) [![codecov](https://codecov.io/gh/goudekettingrm/parameterize/branch/main/graph/badge.svg)](https://codecov.io/gh/goudekettingrm/parameterize)
+
+
 # Parameterize
 
 A TypeScript library for normalizing and parameterizing strings, making them URL-friendly.
