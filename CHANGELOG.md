@@ -1,5 +1,15 @@
 # next-navigate
 
+## 1.0.0
+
+### Major Changes
+
+- d1f741c: Initial version
+
+### Patch Changes
+
+- 79d230a: Add badges in readme
+
 ## 0.2.2
 
 ### Patch Changes
