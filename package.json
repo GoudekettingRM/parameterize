@@ -2,8 +2,8 @@
   "name": "parameterizejs",
   "version": "0.0.1",
   "description": "Convert strings to parameterized strings",
-  "main": "dist/src/index.js",
-  "module": "dist/src/index.mjs",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "dev": "node bin/developAutoBuild.js",
     "build": "rm -rf dist && tsup src/index.ts --format cjs,esm --minify --dts --clean --legacy-output dist",

@@ -1,3 +1,5 @@
 node_modules
-dist
-trash
+package
+*.tgz
+
+.DS_Store
