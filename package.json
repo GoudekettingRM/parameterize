@@ -9,7 +9,8 @@
     "build": "rm -rf dist && tsup src/index.ts --format cjs,esm --minify --dts --clean --legacy-output dist",
     "release": "npm run build && changeset publish",
     "lint": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "changelog": "npx changeset && git add .changeset && git commit -m \"Chore: update changelog\" && git push"
   },
   "repository": {
     "type": "git",
