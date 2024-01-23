@@ -1,5 +1,5 @@
 {
-  "name": "parameterjs",
+  "name": "urlizejs",
   "version": "1.0.0",
   "description": "Convert strings to parameterized strings",
   "main": "dist/index.js",
